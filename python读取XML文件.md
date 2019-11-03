@@ -21,7 +21,7 @@ xml即可扩展标记语言，它可以用来标记数据、定义数据类型�
 
 该文件分为三层，通过一下方法遍历得到各层的标签名称，属性和对应的文本
 
-
+```html
 	import xml.etree.ElementTree as ET
 
 	tree = ET.parse("text.xml")
@@ -37,8 +37,7 @@ xml即可扩展标记语言，它可以用来标记数据、定义数据类型�
 	        # 第三层节点的标签名称，属性和对应的文本
 	        print(children.tag, ":", children.attrib)
 	        print(children.text)
-
-
+```
 
 
 **2).通过下标的方式直接访问节点**
