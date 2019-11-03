@@ -99,8 +99,11 @@ xml即可扩展标记语言，它可以用来标记数据、定义数据类型�
 	print(root.ELEMENT_NODE)  # data是ELEMENT_NODE
 
 **nodeTypes —— 有名常数**
-|nodeType	|Named Constant		|
 
+
+|nodeType	|Named Constant		|
+| --------	|--------		|
+|	1	|ELEMENT_NODE		|
 
 
 
