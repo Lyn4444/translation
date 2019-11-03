@@ -1,6 +1,6 @@
-#python读取XML文件#
+#python读取XML文件
 
-##什么是XML文件和TMX文件##
+##什么是XML文件和TMX文件
 > xml即可扩展标记语言，它可以用来标记数据、定义数据类型，是一种允许用户对自己的标记语言进行定义的源语言。TMX是一种自定义格式的文件，其实质是XML文件，以一个简单的XML文件为例（text.xml）：
 >
 > 
@@ -16,7 +16,7 @@
    
 **有两种方法读取出在text.xml文件中first，second，third标签下的内容**
 
-## 一.使用ElementTree处理xml文件##
+## 一.使用ElementTree处理xml文件
 **1）.简单遍历**
 
 该文件分为三层，通过一下方法遍历得到各层的标签名称，属性和对应的文本
@@ -83,7 +83,8 @@
 
 **以上方法能够很快遍历小型的xml和tmx，对于大型文件，并不适用**
 
-##二.使用mxl.dom.minidom 模块被用来处理xml文件 ##
+
+##二.使用mxl.dom.minidom 模块被用来处理xml文件 
 
 **1）获得标签属性（data）**
 
@@ -141,7 +142,7 @@
 	print(childrenNode.firstChild.data)  # XML
 	
 
-## 代码演示 ##
+## 代码演示 
 
 代码示例一：
 >
