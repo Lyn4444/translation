@@ -98,6 +98,8 @@ xml即可扩展标记语言，它可以用来标记数据、定义数据类型�
 	print(root.nodeType)  # nodeType是结点的类型。
 	print(root.ELEMENT_NODE)  # data是ELEMENT_NODE
 
+
+
 **nodeTypes —— 有名常数**
 
 
@@ -115,6 +117,20 @@ xml即可扩展标记语言，它可以用来标记数据、定义数据类型�
 |	10	|DOCUMENT_TYPE_NODE	|
 |	11	|DOCUMENT_FRAGMENT_NODE	|
 |	12	|NOTATION_NODE		|
+
+
+
+
+
+
+**nodeName  —— 结点名字	和	nodeValue —— 结点的值**
+
+
+|结点类型	|nodeName的返回值	|nodeValue的返回值	|
+|--------   |:----:|:----:|
+|Document|#document|null|
+
+
 
 
 
