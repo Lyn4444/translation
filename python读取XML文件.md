@@ -98,9 +98,8 @@ xml即可扩展标记语言，它可以用来标记数据、定义数据类型�
 	print(root.nodeName)  # nodeName为结点名字。
 	print(root.nodeValue)  # nodeValue是结点的值，只对文本结点有效。
 	print(root.nodeType)  # nodeType是结点的类型。
-	print(root.ELEMENT_NODE)  # data是ELEMENT_NODE类型
-
-结点的类型详解：<p>[https://www.w3school.com.cn/xmldom/dom_nodetype.asp](https://www.w3school.com.cn/xmldom/dom_nodetype.asp)</p>
+	print(root.ELEMENT_NODE)  # data是ELEMENT_NODE
+	
 
 
 **2).获得子标签和属性**
