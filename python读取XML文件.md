@@ -45,7 +45,7 @@ xml即可扩展标记语言，它可以用来标记数据、定义数据类型�
 
 
 	# 访问根节点下login的第0个节点first,获取对应的文本
-	first = root[0][0].text    # python
+	first = root[0][0].text    # first = python
 	print(first)
 
 以此为基础改动，也可以得到标签节点下对应的文本
@@ -58,7 +58,6 @@ xml即可扩展标记语言，它可以用来标记数据、定义数据类型�
 	indexAhead = 0
 	indexBehind = 0
 	for child in root:
-	    root = tree.getroot()
 	    indexBehind = 0
 	    print(root[indexAhead].text)
 	
