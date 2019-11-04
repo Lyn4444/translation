@@ -184,9 +184,9 @@ xml即可扩展标记语言，它可以用来标记数据、定义数据类型�
 ## 代码演示 
 
 代码示例一：
->
+
 	import xml.etree.ElementTree as ET
->
+
 	tree = ET.parse("text.xml")
 	root = tree.getroot()
 	print(root.tag, ":", root.text)
@@ -195,6 +195,8 @@ xml即可扩展标记语言，它可以用来标记数据、定义数据类型�
 	    for children in child:
 	        print(children.tag, ":", children.text)
 
+
+>>
 
 	#输出示例
 	data : 
@@ -208,9 +210,9 @@ xml即可扩展标记语言，它可以用来标记数据、定义数据类型�
 
 
 代码示例二：
->
+
 	import xml.etree.ElementTree as ET
->	
+	
 	tree = ET.parse("text.xml")
 	root = tree.getroot()
 	indexAhead = 0
@@ -224,9 +226,11 @@ xml即可扩展标记语言，它可以用来标记数据、定义数据类型�
 	        indexBehind += 1
 	    indexAhead += 1
 
+
+>>
 	#输出示例
 	
-	        
+      
 	first : Python 
 	
 	second : text 
@@ -235,36 +239,37 @@ xml即可扩展标记语言，它可以用来标记数据、定义数据类型�
 	
 	
 代码示例三：
->
+
 	import xml.dom.minidom
->	
+	
 	dom = xml.dom.minidom.parse('text.xml')
->	
+	
 	root = dom.documentElement 
->	
+	
 	name = root.getElementsByTagName('login')
 	tagName = name[0]
 	print(tagName.nodeName)
->	
+	
 	itemList = root.getElementsByTagName('login')
 	item = itemList[0]
 	un = item.getAttribute("username")
 	print(un)
 	pd = item.getAttribute("password")
 	print(pd)
->	
+	
 	node = dom.getElementsByTagName('first')
 	childrenNode = node[0]
 	print(childrenNode.firstChild.data)
->	
+	
 	node = dom.getElementsByTagName('second')
 	childrenNode = node[0]
 	print(childrenNode.firstChild.data)
->	
+	
 	node = dom.getElementsByTagName('third')
 	childrenNode = node[0]
 	print(childrenNode.firstChild.data)
 
+>>
 	#输出示例
 	login
 	pytest
