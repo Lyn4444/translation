@@ -129,8 +129,17 @@ xml即可扩展标记语言，它可以用来标记数据、定义数据类型�
 |结点类型	|nodeName的返回值	|nodeValue的返回值	|
 |--------   |:----:|:----:|
 |Document|#document|null|
-
-
+|DocumentType|doctype 名称|null|
+|DocumentFragment|#document fragment|null|
+|EntityReference|实体引用名称|null|
+|Element|element name|null|
+|Attr|属性名称|属性值|
+|Comment|#comment|注释文本|
+|ProcessingInstruction|target|结点的内容|
+|Text|#text|结点内容|
+|CDATASection|	#cdata-section|结点内容|
+|Entity|实体名称|null|
+|Notation|符号名称|null|
 
 
 
