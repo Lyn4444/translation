@@ -15,13 +15,13 @@ xml即可扩展标记语言，它可以用来标记数据、定义数据类型�
 	</data>
 	
 	
-**从中可以看出它有如下特征：
-**1.有标签对组成：<data></data>
-**2.标签可以有属性：<login username="pytest" passwd='2019'>
+**从中可以看出它有如下特征：**
+**1.有标签对组成：<data></data>**
+**2.标签可以有属性：<login username="pytest" passwd='2019'>**
 	
 
-**3.标签对可以嵌入数据：<first>Python</first>
-**4.标签可以嵌入子标签（具有层级关系）：<data><first>Python</first></data>
+**3.标签对可以嵌入数据：<first>Python</first>**
+**4.标签可以嵌入子标签（具有层级关系）：<data><first>Python</first></data>**
 
 
 ## 什么是TMX文件
@@ -30,7 +30,7 @@ xml即可扩展标记语言，它可以用来标记数据、定义数据类型�
 
 
    
-**有两种方法读取出在text.xml文件中first，second，third标签下的内容**
+## **有两种方法读取出在text.xml文件中first，second，third标签下的内容**
 
 ## 一.使用ElementTree处理xml文件
 **1）.简单遍历**
